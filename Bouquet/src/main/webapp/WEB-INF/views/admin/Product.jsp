@@ -27,7 +27,7 @@
 
 					<c:otherwise>
 						<div class="col-sm-6">
-							<form:input path="id" pattern=".{5,20}" required="true" title="id should contains 5 to 20 characters" cssClass="form-control" />
+							<form:input path="id" pattern=".{0,35}" required="true" title="id should contains 5 to 35 characters" cssClass="form-control" />
 						</div>
 					</c:otherwise>
 				</c:choose>
@@ -99,7 +99,7 @@
 						</div>
 					</c:if> <c:if test="${empty product.name}">
 						<div class="col-sm-offset-3 col-sm-6">
-							<button type="submit" value="<spring:message/>" class="btn btn-success"><i class="fa fa-plus" aria-hidden="true"></i> Add Product</button>
+							<button type="submit" value="<spring:message/>" class="btn btn-success"> Add Product</button>
 						</div>
 					</c:if>
 			</div>

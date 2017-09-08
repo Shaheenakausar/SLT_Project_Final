@@ -40,9 +40,7 @@ body
 			<div class="form-group">
 				<input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
 				<div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-success">
-						<i class="fa fa-sign-in" aria-hidden="true"></i> Login
-					</button>
+					<button type="submit" class="btn btn-success">Login</button>
 				</div>
 			</div>
 			<div class="container col-sm-offset-3 col-sm-9" style="color: red">${errorLoginMessage}</div>

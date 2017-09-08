@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Manage Categories</title>
 </head>
-<body>
+<body style="background-color:	#E9967A">
 
 
 
@@ -25,7 +25,7 @@
 					<div class="form-group">
 						<label class="control-label col-sm-3" for="cId">Category Id:</label>
 						<div class="col-sm-9">
-							<input type="text" class="form-control" id="cId" placeholder="Enter Category Id" name="cId" value="${selectedCategory.id}" pattern=".{5,15}" title="Category Id must have 5 to 15 characters" required>
+							<input type="text" class="form-control" id="cId" placeholder="Enter Category Id" name="cId" value="${selectedCategory.id}" pattern=".{2,15}" title="Category Id must have 5 to 15 characters" required>
 						</div>
 					</div>
 					<div class="form-group">
@@ -77,7 +77,7 @@
 
 						<div class="form-group">
 							<div class="col-sm-offset-3 col-sm-9">
-								<button type="submit" class="btn btn-info"><i class="fa fa-plus" aria-hidden="true"></i> Create Category</button>
+								<button type="submit" class="btn btn-info"><!-- <i class="fa fa-plus" aria-hidden="true"> --></i> Create Category</button>
 							</div>
 						</div>
 					</form>

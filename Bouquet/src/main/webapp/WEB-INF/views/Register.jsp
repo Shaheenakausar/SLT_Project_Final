@@ -49,7 +49,7 @@ body
     </div>
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-10">
-        <button type="submit" class="btn btn-danger"><i class="fa fa-user-plus" aria-hidden="true"></i>Click Here To Register</button>
+        <button type="submit" class="btn btn-success">Click Here To Register</button>
       </div>
     </div>
   </form>

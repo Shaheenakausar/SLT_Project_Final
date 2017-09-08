@@ -11,7 +11,7 @@
 		
 		<div class="container">
 			<div class="col-xs-offset-5 col-xs-2" style="padding-left: 0px; padding-right: 0px;">
-				<img src="<c:url value="/resources/images/checkMark.jpg" />" class="img-responsive">
+				<img src="<c:url value="/resources/images/Mark.jpg" />" class="img-responsive">
 			</div>
 		</div>
 
@@ -19,7 +19,7 @@
 		<div class="h2 text-center">Thank you for checking out. The amount of <b class="text-success"><i class="fa fa-inr" aria-hidden="true"></i> ${totalAmount}</b> has been received.</div>
 		<div class="h2 text-center">The product will be delivered in 2-5 business days.</div>
 
-		<img src="<c:url value="/resources/images/ThankYou.gif" />" alt="Thank You GIF" class="img-responsive center-block" />
+		<img src="<c:url value="/resources/images/Thankyou.gif" />" alt="Thank You GIF" class="img-responsive center-block" />
 
 	</div>
 </body>

@@ -22,8 +22,8 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<a href="showProductByCategory/001">
-								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1" style="width:40%;">
+							<a href="showProductByCategory/003">
+								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1" align="center" style="width:40%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Special day</p>
 								</div>
@@ -31,32 +31,32 @@
 
 						</div>
 						<div class="item">
-							<a href="viewProduct/">
-								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2" style="width:40%;">
+							<a href="viewProduct/001">
+								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2" align="center" style="width:40%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Birthdays</p>
 								</div>
 							</a>
 						</div>
 						<div class="item">
-							<a href="showProductByCategory/Moto">
-								<img src="<c:url value="/resources/images/3.jpg" />" alt="Image 3" style="width:40%;">
+							<a href="showProductByCategory/004">
+								<img src="<c:url value="/resources/images/3.jpg" />" alt="Image 3" align="center" style="width:40%;">
 								<div class="carousel-caption">
 										<p>Valentines day special bouquet</p>
 								</div>
 							</a>
 						</div>
 						<div class="item">
-							<a href="showProductByCategory/Topwears">
-								<img src="<c:url value="/resources/images/4.jpg" />" alt="Image 4" style="width:40%;">
+							<a href="showProductByCategory/002">
+								<img src="<c:url value="/resources/images/4.jpg" />" alt="Image 4" align="center" style="width:40%;">
 							<div class="carousel-caption">
 										<p>Marriage day special bouquet</p>
 								</div>
 							</a>
 						</div>
 						<div class="item">
-							<a href="showProductByCategory/Xbox">
-								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" style="width:40%;">
+							<a href="showProductByCategory/005">
+								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" align="center" style="width:40%;">
 							<div class="carousel-caption">
 										<p> Bouquet for Engagement day</p>
 								</div>
