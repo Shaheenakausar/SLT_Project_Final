@@ -1,0 +1,8 @@
+com\niit\bouquet_backend\OrderTableDAOTestCase.class
+com\niit\bouquet_backend\SupplierDAOTestCase.class
+com\niit\bouquet_backend\CategoryDAOTestCase.class
+com\niit\bouquet_backend\AddressDAOTestCase.class
+com\niit\bouquet_backend\ProductDAOTestCase.class
+com\niit\bouquet_backend\UserDAOTestCase.class
+com\niit\bouquet_backend\My_CartDAOTestCase.class
+com\niit\bouquet_backend\ContactDAOTestCase.class
