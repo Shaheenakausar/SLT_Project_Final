@@ -22,7 +22,7 @@
 
 					<div class="carousel-inner">
 						<div class="item active">
-							<a href="showProductByCategory/Philips">
+							<a href="showProductByCategory/001">
 								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1" style="width:40%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Special day</p>
@@ -31,7 +31,7 @@
 
 						</div>
 						<div class="item">
-							<a href="viewProduct/Nilkamal">
+							<a href="viewProduct/">
 								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2" style="width:40%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Birthdays</p>

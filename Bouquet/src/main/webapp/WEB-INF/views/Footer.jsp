@@ -14,7 +14,7 @@
 				<p>&copy; 2017 SK Lala Shaheena Kausar</p>
 			</div>
 			<div class="navbar-text noStyle pull-right">
-				<a href="https://www.facebook.com" target="_blank">
+				<a href="https://www.facebook.com/shaheenakausar07" target="_blank">
 					<i class="fa fa-facebook fa-2x"></i>
 				</a>
 				<a href="https://twitter.com" target="_blank">

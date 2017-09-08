@@ -58,7 +58,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public ModelAndView goToHome() {
 		ModelAndView mv = new ModelAndView("Home");
-		mv.addObject("message", "Welcome To Smart Phone Mobile Shop <br>");
+		mv.addObject("message", "Welcome To Bouquet Shop <br>");
 		mv.addObject("isUserAtHomePage", "true");
 		// model.addAttribute("message", "Thank you for visiting Shopping Cart!
 		// <br>");

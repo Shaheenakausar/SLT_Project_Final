@@ -24,7 +24,7 @@
 							<div class="h3">${product.name}</div>
 						</div>
 						<div class="panel-body">
-							<img height="350px" width="250px" src="<c:url value="/resources/img/${product.id}.jpg" />" alt="${product.name}" />
+							<img height="350px" width="250px" src="<c:url value="/resources/img/${product.id}.jpeg" />" alt="${product.name}" />
 						</div>
 						<div class="panel-footer">
 													<div class="row">

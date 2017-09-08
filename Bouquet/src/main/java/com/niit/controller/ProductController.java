@@ -60,7 +60,7 @@ public class ProductController {
 	HttpSession session;
 
 	// Setting Path to store images
-	/*private String path = "//Users//Suveen//Documents//java//workspace//SLT//SLTProject//ShoppingCartFrontEnd//src//main//webapp//resources//img";*/
+	
 private String path ="\\E:\\SLT_Project_Final\\Bouquet\\src\\main\\webapp\\resources\\img";
 	
 	// Add or Update Product
