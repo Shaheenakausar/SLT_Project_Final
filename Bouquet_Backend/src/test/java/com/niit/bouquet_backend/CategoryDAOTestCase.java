@@ -38,9 +38,9 @@ public class CategoryDAOTestCase {
 
 	@Test
 	public void createCategoryTestCase() {
-		category.setId("WOMEN_007");
-		category.setName("WOMEN");
-		category.setDescription("This category contains Top wears");
+		category.setId("Birthday1");
+		category.setName("Birthday");
+		category.setDescription("Bouquet of flowers");
 
 		boolean flag = categoryDAO.save(category);
 
@@ -50,9 +50,9 @@ public class CategoryDAOTestCase {
 
 	/*@Test
 	public void updateCategoryTestCase() {
-		category.setId("MEN&WOMEN_003");
-		category.setName("MEN&WOMEN");
-		category.setDescription("This category contains Top Wears");
+		category.setId("Birthday2");
+		category.setName("BirthdayFlowers");
+		category.setDescription("Bouquet of flowers");
 
 		boolean flag = categoryDAO.update(category);
 

@@ -37,9 +37,9 @@ public class SupplierDAOTestCase {
 
 	@Test
 	public void createSupplierTestCase() {
-		supplier.setId("Samsung_02");
-		supplier.setName("Univercell Mobiles");
-		supplier.setAddress("Anantapur");
+		supplier.setId("Birthday1");
+		supplier.setName("Birthday flowers");
+		supplier.setAddress("Hyderabad");
 
 		boolean flag = supplierDAO.save(supplier);
 
@@ -49,9 +49,9 @@ public class SupplierDAOTestCase {
 
 	/*@Test
 	public void updateSupplierTestCase() {
-		supplier.setId("SP_Reliance");
-		supplier.setName("Reliance Mobiles");
-		supplier.setAddress("Bangalore");
+		supplier.setId("Birthday2");
+		supplier.setName("Birthdays);
+		supplier.setAddress("Vizag");
 
 		boolean flag = supplierDAO.update(supplier);
 

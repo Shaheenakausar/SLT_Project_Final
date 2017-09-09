@@ -41,13 +41,13 @@ public class ProductDAOTestCase {
 	public void createProductTestCase()
 	{
 		
-		product.setId("Moto_003");
-		product.setCategory_id("Elec_001");
-		product.setDescription("Brand new Moto G4 32gb white");
-		product.setName("Moto G4");
-		product.setPrice(14455);
+		product.setId("Birthday");
+		product.setCategory_id("Birthday1");
+		product.setDescription("good colors");
+		product.setName("Birthday");
+		product.setPrice(1445);
 		product.setQuantity(2);
-		product.setSupplier_id("Samsung_02");
+		product.setSupplier_id("Shaheena");
 		
 		boolean flag =  productDAO.saveOrUpdate(product);
 
@@ -57,12 +57,12 @@ public class ProductDAOTestCase {
 	/*@Test
 	public void updateCategoryTestCase()
 	{
-		product.setId("Moto");
-		product.setName("Moto G4 Plus");
-		product.setDescription("Brand new Moto G4 32gb black");
-		product.setCategory_id("ELECTRONICS");
-		product.setPrice(14999);
-		product.setSupplier_id("SP_Sangeetha");
+		product.setId("Birthday");
+		product.setName("Birthday1");
+		product.setDescription("good");
+		product.setCategory_id("Birthday");
+		product.setPrice(1499);
+		product.setSupplier_id("Shaheena");
 		product.setQuantity(4);
 		boolean flag = productDAO.saveOrUpdate(product);
 		assertEquals("update Product TestCase",true,flag);

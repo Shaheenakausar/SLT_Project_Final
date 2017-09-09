@@ -37,10 +37,10 @@ public class ContactDAOTestCase {
 
 	@Test
 	public void createContactTestCase() {
-		contact.setName("T Pradeep Reddy");
-		contact.setEmail("pradeeptv99@gmail.com");
-		contact.setContact("7799881234");
-		contact.setMessage("Original : You designed a  web application");
+		contact.setName("Sk Shaheena");
+		contact.setEmail("lala@gmail.com");
+		contact.setContact("7896325410");
+		contact.setMessage("Original : Designed a  web application");
 
 		boolean flag = contactDAO.save(contact);
 

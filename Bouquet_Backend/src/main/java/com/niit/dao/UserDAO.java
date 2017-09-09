@@ -26,19 +26,7 @@ public interface UserDAO {
 	
 	public User get(String id);
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
 	
 
 }

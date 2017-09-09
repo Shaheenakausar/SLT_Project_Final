@@ -45,9 +45,9 @@ public class My_CartDAOTestCase {
 	
 	@Test
 	public void createCartTestCase() {
-		my_Cart.setUser_id("Kiran");
-		my_Cart.setPrice(15000);
-		my_Cart.setProduct_name("Moto G5 Plus");
+		my_Cart.setUser_id("Kausar");
+		my_Cart.setPrice(150);
+		my_Cart.setProduct_name("Birthday");
 		
 		boolean flag = my_CartDAO.save(my_Cart);
 		
@@ -56,7 +56,7 @@ public class My_CartDAOTestCase {
 	
 	@Test
 	public void deleteCartTestCase(){
-		boolean flag = my_CartDAO.deleteAllProductsInCart("Kiran");
+		boolean flag = my_CartDAO.deleteAllProductsInCart("Kausar");
 		
 		assertEquals(true, flag);
 	}

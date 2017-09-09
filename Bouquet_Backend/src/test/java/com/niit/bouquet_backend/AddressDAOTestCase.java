@@ -1,4 +1,4 @@
-package com.niit.bouquet_backend;
+/*package com.niit.bouquet_backend;
 
 import static org.junit.Assert.*;
 
@@ -49,7 +49,7 @@ public class AddressDAOTestCase {
 
 	}
 
-	/*@Test
+	@Test
 	public void updateAddressTestCase() {
 		address.setId("shaheena");
 		address.setUser_id("shannu");
@@ -69,6 +69,7 @@ public class AddressDAOTestCase {
 	public void listAllAddressTestCase() {
 		int actualSize = addressDAO.list().size();
 		assertEquals(2, actualSize);
-	}*/
+	}
 
 }
+*/

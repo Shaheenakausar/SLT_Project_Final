@@ -23,7 +23,7 @@
 					<div class="carousel-inner">
 						<div class="item active">
 							<a href="showProductByCategory/003">
-								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1" align="center" style="width:40%;">
+								<img src="<c:url value="/resources/images/1.jpg" />" alt="Image 1" align="center" style="width:100%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Special day</p>
 								</div>
@@ -32,7 +32,7 @@
 						</div>
 						<div class="item">
 							<a href="viewProduct/001">
-								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2" align="center" style="width:40%;">
+								<img src="<c:url value="/resources/images/2.jpg" />" alt="Image 2" align="center" style="width:100%;">
 								<div class="carousel-caption">
 										<p> Bouquet for Birthdays</p>
 								</div>
@@ -40,7 +40,7 @@
 						</div>
 						<div class="item">
 							<a href="showProductByCategory/004">
-								<img src="<c:url value="/resources/images/3.jpg" />" alt="Image 3" align="center" style="width:40%;">
+								<img src="<c:url value="/resources/images/3.jpg" />" alt="Image 3" align="center" style="width:100%;">
 								<div class="carousel-caption">
 										<p>Valentines day special bouquet</p>
 								</div>
@@ -48,7 +48,7 @@
 						</div>
 						<div class="item">
 							<a href="showProductByCategory/002">
-								<img src="<c:url value="/resources/images/4.jpg" />" alt="Image 4" align="center" style="width:40%;">
+								<img src="<c:url value="/resources/images/4.jpg" />" alt="Image 4" align="center" style="width:100%;">
 							<div class="carousel-caption">
 										<p>Marriage day special bouquet</p>
 								</div>
@@ -56,7 +56,7 @@
 						</div>
 						<div class="item">
 							<a href="showProductByCategory/005">
-								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" align="center" style="width:60%;">
+								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" align="center" style="width:100%;">
 							<div class="carousel-caption">
 										<p> Bouquet for Engagement day</p>
 								</div>
