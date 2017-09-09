@@ -94,7 +94,7 @@ public class HomeController {
 	@RequestMapping("/Home")
 	public ModelAndView goToHomeButton() {
 		ModelAndView mv = new ModelAndView("Home");
-		mv.addObject("message", "Welcome To Smart Phone Mobile Shop <br>");
+		mv.addObject("message", "Welcome To Bouquet shop <br>");
 		mv.addObject("isUserAtHomePage", "true");
 		
 		// get all categories

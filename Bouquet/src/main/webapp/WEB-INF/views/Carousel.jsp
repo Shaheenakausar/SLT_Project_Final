@@ -56,7 +56,7 @@
 						</div>
 						<div class="item">
 							<a href="showProductByCategory/005">
-								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" align="center" style="width:40%;">
+								<img src="<c:url value="/resources/images/5.jpg" />" alt="Image 5" align="center" style="width:60%;">
 							<div class="carousel-caption">
 										<p> Bouquet for Engagement day</p>
 								</div>

@@ -35,13 +35,13 @@ public class AddressDAOTestCase {
 
 	@Test
 	public void createAddressTestCase() {
-		address.setId("UdayAddress");
-		address.setUser_id("Kiran");
-		address.setH_no("4-1-185");
-		address.setStreet("6th Road");
-		address.setCity("Anantapur");
+		address.setId("shannu1");
+		address.setUser_id("kausar");
+		address.setH_no("44/11B");
+		address.setStreet("Road no 1");
+		address.setCity("Hyderabad");
 		address.setCountry("India");
-		address.setPin("515001");
+		address.setPin("500038");
 
 		boolean flag = addressDAO.save(address);
 
@@ -51,13 +51,13 @@ public class AddressDAOTestCase {
 
 	/*@Test
 	public void updateAddressTestCase() {
-		address.setId("KiranAddress");
-		address.setUser_id("Kiran");
+		address.setId("shaheena");
+		address.setUser_id("shannu");
 		address.setH_no("4-1-185");
-		address.setStreet("6th Road");
-		address.setCity("Anantapur");
+		address.setStreet(" Road 9");
+		address.setCity("vijayawada");
 		address.setCountry("India");
-		address.setPin("515001");
+		address.setPin("511068");
 
 		boolean flag = addressDAO.update(address);
 
